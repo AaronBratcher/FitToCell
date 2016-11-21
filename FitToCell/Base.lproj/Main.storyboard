@@ -13,7 +13,7 @@
         <scene sceneID="REx-K5-NmT">
             <objects>
                 <collectionViewController id="h1m-Ed-zYc" customClass="ViewController" customModule="FitToCell" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" id="O9c-FB-lWi">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="O9c-FB-lWi">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.8653052137305699" green="0.8653052137305699" blue="0.8653052137305699" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

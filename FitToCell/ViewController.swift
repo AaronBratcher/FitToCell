@@ -30,7 +30,6 @@ class ViewController: UICollectionViewController {
 	override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
 		let widgetView = widgetViews[indexPath.row]
 		let widgetCell = collectionView.dequeueReusableCell(for: indexPath, cellType: WidgetCell.self)
-		
 		widgetCell.widgetView = widgetView
 		
 		return widgetCell

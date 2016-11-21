@@ -15,13 +15,9 @@ class WidgetCell: UICollectionViewCell, Reusable {
 			for view in contentView.subviews {
 				view.removeFromSuperview()
 			}
-
+			
+			widgetView.frame = contentView.frame
 			contentView.addSubview(widgetView)
-			let views = ["view": widgetView as Any]
-			var constraints = NSLayoutConstraint.constraints(withVisualFormat: "H:|-0-[view]-0-|", options: .directionLeadingToTrailing, metrics: nil, views: views)
-			constraints.append(contentsOf: NSLayoutConstraint.constraints(withVisualFormat: "V:|-0-[view]-0-|", options: .directionLeadingToTrailing, metrics: nil, views: views))
-
-			contentView.addConstraints(constraints)
 		}
 	}
 }
